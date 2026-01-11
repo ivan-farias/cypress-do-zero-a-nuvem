@@ -1,28 +1,29 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress, do zero à nuvem.
 
-👋 Seja bem-vindo(a)!
+Projeto de exemplo do curso "Cypress, do zero à nuvem da escola online "Talking About Testing".
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré requisitos:
 
-## O que você vai aprender?
+É necessário ter o Git, Node.js e Npm instalado para clonar e instalar o projeto.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+> Eu usei as versões `2.52.0`,`v18.14.0` e `9.3.1` respectivamente. Sugiro que utilize a mesma versão ou uma superior.
 
-## Vamos começar?
+## Instalação 
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Executar `npm install` ou `npm i` para instalar as dependências.
 
-___
+## Testes
 
-Este é um curso da **Escola Talking About Testing**.
+Nesse projeto você pode executar os testes na versão desktop ou na versão mobile do desktop.
+
+### Desktop
+
+Execute `npm test` para executar os testes no modo "Headless" na área de trabalho.
+
+Ou execute `npm run cy:open` para executar os testes no aplicativo do cypress (Testes visuais).
+
+### Mobile
+
+Execute `npm run test:mobile` para executar os testes no modo "Headless".
+
+Ou execute `npm run cy:open:mobile` para executar os testes no aplicativo do cypress (Testes visuais).
